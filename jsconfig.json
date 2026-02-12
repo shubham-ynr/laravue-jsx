@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "resources/js/*"
+      ]
+    }
+  },
+  "include": [
+    "resources/js/**/*",
+    "resources/js/**/*.vue",
+    "resources/js/**/*.js"
+  ],
+  "exclude": [
+    "public",
+    "vendor"
+  ]
+}
